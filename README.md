@@ -220,21 +220,21 @@ Respondé cada pregunta reemplazando el espacio en blanco con la opción correct
 Opciones: `ECHO` | `IGNORA` | `ERROR`
 
 ```
-P1=
+P1=ECHO
 ```
 
 **P2** — Cuando dos reglas coinciden con **exactamente la misma cantidad de caracteres**, ¿cuál elige Flex?
 Opciones: `LA_PRIMERA` | `LA_ULTIMA` | `ALEATORIA`
 
 ```
-P2=
+P2=LA_PRIMERA
 ```
 
 **P3** — ¿`yyleng` contiene la cantidad de caracteres del lexema reconocido por la regla actual?
 Opciones: `SI` | `NO`
 
 ```
-P3=
+P3=SI
 ```
 
 ---
